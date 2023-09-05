@@ -97,7 +97,6 @@ def test_show_my_pets(driver):
    print(my_pets_type)
 
 
-      # assert wait.until(EC.visibility_of(type_my_pets[i]))
 
    # Ищем на странице /my_pets всю статистику пользователя,
    # и вычленяем из полученных данных количество питомцев пользователя:
